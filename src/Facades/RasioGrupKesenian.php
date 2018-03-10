@@ -1,16 +1,16 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia\Facades;
+namespace Bantenprov\RasioGrupKesenian\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * The RasioBankDunia facade.
+ * The RasioGrupKesenian facade.
  *
- * @package Bantenprov\RasioBankDunia
+ * @package Bantenprov\RasioGrupKesenian
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RasioBankDuniaFacade extends Facade
+class RasioGrupKesenianFacade extends Facade
 {
     /**
      * Get the registered name of the component.

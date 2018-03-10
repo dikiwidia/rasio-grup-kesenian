@@ -1,16 +1,16 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia\Console\Commands;
+namespace Bantenprov\RasioGrupKesenian\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * The RasioBankDuniaCommand class.
+ * The RasioGrupKesenianCommand class.
  *
- * @package Bantenprov\RasioBankDunia
+ * @package Bantenprov\RasioGrupKesenian
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RasioBankDuniaCommand extends Command
+class RasioGrupKesenianCommand extends Command
 {
     /**
      * The name and signature of the console command.
@@ -24,7 +24,7 @@ class RasioBankDuniaCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Demo command for Bantenprov\RasioBankDunia package';
+    protected $description = 'Demo command for Bantenprov\RasioGrupKesenian package';
 
     /**
      * Create a new command instance.
@@ -43,6 +43,6 @@ class RasioBankDuniaCommand extends Command
      */
     public function handle()
     {
-        $this->info('Welcome to command for Bantenprov\RasioBankDunia package');
+        $this->info('Welcome to command for Bantenprov\RasioGrupKesenian package');
     }
 }

@@ -1,32 +1,32 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia\Http\Controllers;
+namespace Bantenprov\RasioGrupKesenian\Http\Controllers;
 
 /* Require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\BudgetAbsorption\Facades\RasioBankDuniaFacade;
+use Bantenprov\BudgetAbsorption\Facades\RasioGrupKesenianFacade;
 
 /* Models */
-use Bantenprov\RasioBankDunia\Models\Bantenprov\RasioBankDunia\RasioBankDunia;
+use Bantenprov\RasioGrupKesenian\Models\Bantenprov\RasioGrupKesenian\RasioGrupKesenian;
 
 /* Etc */
 use Validator;
 
 /**
- * The RasioBankDuniaController class.
+ * The RasioGrupKesenianController class.
  *
- * @package Bantenprov\RasioBankDunia
+ * @package Bantenprov\RasioGrupKesenian
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RasioBankDuniaController extends Controller
+class RasioGrupKesenianController extends Controller
 {
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(RasioBankDunia $angka_melek_huruf)
+    public function __construct(RasioGrupKesenian $angka_melek_huruf)
     {
         $this->angka_melek_huruf = $angka_melek_huruf;
     }
@@ -80,7 +80,7 @@ class RasioBankDuniaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\RasioBankDunia  $angka_melek_huruf
+     * @param  \App\RasioGrupKesenian  $angka_melek_huruf
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -136,7 +136,7 @@ class RasioBankDuniaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\RasioBankDunia  $angka_melek_huruf
+     * @param  \App\RasioGrupKesenian  $angka_melek_huruf
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -153,7 +153,7 @@ class RasioBankDuniaController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\RasioBankDunia  $angka_melek_huruf
+     * @param  \App\RasioGrupKesenian  $angka_melek_huruf
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -201,7 +201,7 @@ class RasioBankDuniaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\RasioBankDunia  $angka_melek_huruf
+     * @param  \App\RasioGrupKesenian  $angka_melek_huruf
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

@@ -1,17 +1,17 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia;
+namespace Bantenprov\RasioGrupKesenian;
 
 use Illuminate\Support\ServiceProvider;
-use Bantenprov\RasioBankDunia\Console\Commands\RasioBankDuniaCommand;
+use Bantenprov\RasioGrupKesenian\Console\Commands\RasioGrupKesenianCommand;
 
 /**
- * The RasioBankDuniaServiceProvider class
+ * The RasioGrupKesenianServiceProvider class
  *
- * @package Bantenprov\RasioBankDunia
+ * @package Bantenprov\RasioGrupKesenian
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RasioBankDuniaServiceProvider extends ServiceProvider
+class RasioGrupKesenianServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -45,11 +45,11 @@ class RasioBankDuniaServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('rasio-grup-kesenian', function ($app) {
-            return new RasioBankDunia;
+            return new RasioGrupKesenian;
         });
 
         $this->app->singleton('command.rasio-grup-kesenian', function ($app) {
-            return new RasioBankDuniaCommand;
+            return new RasioGrupKesenianCommand;
         });
 
         $this->commands('command.rasio-grup-kesenian');

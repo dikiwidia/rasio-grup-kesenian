@@ -1,11 +1,11 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia\Models\Bantenprov\RasioBankDunia;
+namespace Bantenprov\RasioGrupKesenian\Models\Bantenprov\RasioGrupKesenian;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class RasioBankDunia extends Model
+class RasioGrupKesenian extends Model
 {
     use SoftDeletes;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace Bantenprov\RasioBankDunia\Http\Middleware;
+namespace Bantenprov\RasioGrupKesenian\Http\Middleware;
 
 use Closure;
 
 /**
- * The RasioBankDuniaMiddleware class.
+ * The RasioGrupKesenianMiddleware class.
  *
- * @package Bantenprov\RasioBankDunia
+ * @package Bantenprov\RasioGrupKesenian
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class RasioBankDuniaMiddleware
+class RasioGrupKesenianMiddleware
 {
     /**
      * Handle an incoming request.

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class BantenprovRasioBankDuniaSeeder extends Seeder
+class BantenprovRasioGrupKesenianSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class BantenprovRasioBankDuniaSeeder extends Seeder
      */
     public function run()
     {
-         $this->call(BantenprovRasioBankDuniaSeederRasioBankDunia::class);
+         $this->call(BantenprovRasioGrupKesenianSeederRasioGrupKesenian::class);
     }
 }

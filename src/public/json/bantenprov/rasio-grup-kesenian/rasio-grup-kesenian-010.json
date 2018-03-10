@@ -5,7 +5,7 @@
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2011",
-      "title": "Rasio Grup Kesenian Kabupaten Pandeglang",
+      "title": "Penyelesaian Tindak Pidana POLDA Kabupaten Pandeglang",
       "data": [
         "2010",
         "2011",
@@ -32,7 +32,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kabupaten Lebak",
+      "title": "Penyelesaian Tindak Pidana POLDA Kabupaten Lebak",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -60,7 +60,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kabupaten Tangerang",
+      "title": "Penyelesaian Tindak Pidana POLDA Kabupaten Tangerang",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -88,7 +88,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kabupaten Serang",
+      "title": "Penyelesaian Tindak Pidana POLDA Kabupaten Serang",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -116,7 +116,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kota Tangerang",
+      "title": "Penyelesaian Tindak Pidana POLDA Kota Tangerang",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -144,7 +144,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kota Cilegon",
+      "title": "Penyelesaian Tindak Pidana POLDA Kota Cilegon",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -172,7 +172,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kota Serang",
+      "title": "Penyelesaian Tindak Pidana POLDA Kota Serang",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -200,7 +200,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Rasio Grup Kesenian Kota Tangerang Selatan",
+      "title": "Penyelesaian Tindak Pidana POLDA Kota Tangerang Selatan",
       "yyyy": "2011",
       "data": [
         "2010",

@@ -1,8 +1,8 @@
 <?php
 
-if (! function_exists('checkRasioBankDunia')) {
-    function checkRasioBankDunia()
+if (! function_exists('checkRasioGrupKesenian')) {
+    function checkRasioGrupKesenian()
     {
-        return 'Welcome to function checkRasioBankDunia() for Bantenprov\RasioBankDunia package';
+        return 'Welcome to function checkRasioGrupKesenian() for Bantenprov\RasioGrupKesenian package';
     }
 }

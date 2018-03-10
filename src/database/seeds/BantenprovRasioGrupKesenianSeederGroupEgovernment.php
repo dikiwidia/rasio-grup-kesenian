@@ -5,9 +5,9 @@ use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
 /* Models */
-use Bantenprov\RasioBankDunia\Models\Bantenprov\RasioBankDunia\RasioBankDunia;
+use Bantenprov\RasioGrupKesenian\Models\Bantenprov\RasioGrupKesenian\RasioGrupKesenian;
 
-class BantenprovRasioBankDuniaSeederRasioBankDunia extends Seeder
+class BantenprovRasioGrupKesenianSeederRasioGrupKesenian extends Seeder
 {
     /**
      * Run the database seeds.
@@ -38,7 +38,7 @@ class BantenprovRasioBankDuniaSeederRasioBankDunia extends Seeder
         ];
 
         foreach ($angka_melek_hurufs as $angka_melek_huruf) {
-            $model = RasioBankDunia::updateOrCreate(
+            $model = RasioGrupKesenian::updateOrCreate(
                 [
                     'label' => $angka_melek_huruf->label,
                 ],

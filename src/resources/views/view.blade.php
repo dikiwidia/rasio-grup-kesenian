@@ -1,1 +1,1 @@
-This is demo view file for Bantenprov\RasioBankDunia package using blade template
+This is demo view file for Bantenprov\RasioGrupKesenian package using blade template

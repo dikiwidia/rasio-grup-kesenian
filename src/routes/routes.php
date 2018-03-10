@@ -2,13 +2,13 @@
 
 Route::group(['prefix' => 'api/rasio-grup-kesenian', 'middleware' => ['web']], function() {
     $controllers = (object) [
-        'index'     => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@index',
-        'create'    => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@create',
-        'show'      => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@show',
-        'store'     => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@store',
-        'edit'      => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@edit',
-        'update'    => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@update',
-        'destroy'   => 'Bantenprov\RasioBankDunia\Http\Controllers\RasioBankDuniaController@destroy',
+        'index'     => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@index',
+        'create'    => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@create',
+        'show'      => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@show',
+        'store'     => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@store',
+        'edit'      => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@edit',
+        'update'    => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@update',
+        'destroy'   => 'Bantenprov\RasioGrupKesenian\Http\Controllers\RasioGrupKesenianController@destroy',
     ];
 
     Route::get('/',             $controllers->index)->name('rasio-grup-kesenian.index');

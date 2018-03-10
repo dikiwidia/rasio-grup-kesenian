@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateRasioBankDuniasTable extends Migration
+class CreateRasioGrupKeseniansTable extends Migration
 {
     /**
      * Run the migrations.
