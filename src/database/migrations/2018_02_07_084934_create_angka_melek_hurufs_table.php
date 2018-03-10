@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateRasioGrupKeseniansTable extends Migration
+class CreateAngkaMelekHurufsTable extends Migration
 {
     /**
      * Run the migrations.
