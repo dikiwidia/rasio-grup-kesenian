@@ -5,7 +5,7 @@ namespace Bantenprov\RasioGrupKesenian\Http\Controllers;
 /* Require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\BudgetAbsorption\Facades\RasioGrupKesenianFacade;
+use Bantenprov\RasioGrupKesenian\Facades\RasioGrupKesenianFacade;
 
 /* Models */
 use Bantenprov\RasioGrupKesenian\Models\Bantenprov\RasioGrupKesenian\RasioGrupKesenian;
